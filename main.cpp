@@ -9,14 +9,10 @@ int main() {
     string nombre;
     int habitacion;
 
-    /*ifstream archivoHuespedes("huespedes.txt");
-    while (archivoHuespedes >> nombre >> habitacion) {
-        listaHuespedes.cargarHuesped(nombre, habitacion);
-    }*/
+    
 
   ifstream archivoHuespedes("huespedes.txt");
-  //string nombre;
-  //int habitacion;
+  
   while (getline(archivoHuespedes, nombre) && archivoHuespedes >> habitacion) {
     listaHuespedes.cargarHuesped(nombre, habitacion);
     archivoHuespedes.ignore(); // ignorar el salto de línea después del número de habitación
