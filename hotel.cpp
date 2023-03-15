@@ -117,11 +117,6 @@ void ListaHuespedes::ordenarLista() {
     }
 }
 
-/*Roberto
-7
-Luis
-12, esto es un archivo .txt, con este archivo cree una lista doblemente enlazada que guarda el nombre y la habitacion de cada huesped que se llama listaHuespedes. Necesito crear otra lista en una funcion que no sea el main, y esta lista tiene los huespedes en orden alfabetico, y imprime la lista diciendo el nombre de cada huesped y su habitacion, en c++*/
-
 
 
 
