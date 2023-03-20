@@ -15,8 +15,8 @@ int main() {
     }*/
 
   ifstream archivoHuespedes("hotel.txt");
-  //string nombre;
-  //int habitacion;
+  
+    
   while (getline(archivoHuespedes, nombre) && archivoHuespedes >> habitacion) {
     listaHuespedes.cargarHuesped(nombre, habitacion);
     archivoHuespedes.ignore(); // ignorar el salto de línea después del número de habitación
