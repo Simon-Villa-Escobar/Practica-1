@@ -9,10 +9,7 @@ int main() {
     string nombre;
     int habitacion;
 
-    /*ifstream archivoHuespedes("hotel.txt");
-    while (archivoHuespedes >> nombre >> habitacion) {
-        listaHuespedes.cargarHuesped(nombre, habitacion);
-    }*/
+    
 
   ifstream archivoHuespedes("hotel.txt");
   
